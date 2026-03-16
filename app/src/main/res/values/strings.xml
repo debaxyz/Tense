@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tense</string>
+    <string name="home">Present</string>
+    <string name="search">Past</string>
+    <string name="list">Future</string>
+    <string name="profile">Settings</string>
+</resources>

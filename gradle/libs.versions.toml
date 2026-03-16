@@ -1,0 +1,50 @@
+[versions]
+agp = "8.13.2"
+kotlin = "2.2.0"
+coreKtx = "1.18.0-rc01"
+lifecycleRuntimeKtx = "2.11.0-alpha02"
+activityCompose = "1.13.0-alpha01"
+
+composeBom = "2026.02.00"
+androidx-navigation = "2.9.7"
+material3Android = "1.5.0-alpha14"
+
+kyantShapes = "1.2.0"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+
+# Material3
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+# icons
+androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
+
+# Navigation
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "androidx-navigation" }
+
+#
+androidx-material3-android = { module = "androidx.compose.material3:material3-android", version.ref = "material3Android" }
+
+# Foundation
+androidx-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+
+#
+kyant-shapes = { group = "io.github.kyant0", name = "shapes", version.ref = "kyantShapes" }
+
+
